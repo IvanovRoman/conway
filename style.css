@@ -1,0 +1,81 @@
+#game-grid {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  margin-bottom: 5px !important;
+  width: auto;
+}
+#game-grid td {
+  background: none repeat scroll 0 0 #cccccc;
+  border: 1px solid #888888;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 12px;
+  width: 12px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center; 
+}
+#game-grid td:hover {
+  background: none repeat scroll 0 0 #333333;
+}
+.popup-box {
+  position: absolute;
+  border-radius: 5px;
+  background: #fff;
+  display: none;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+  z-index: 9999999;
+  font-size: 14px;
+}
+.popup-box .close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  color: #434343;
+  padding: 20px;
+  font-size: 20px;
+}
+.popup-box .close:hover {
+  color: red;
+}
+.popup-box h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+.popup-box .top {
+  padding: 20px;
+}
+.popup-box .bottom {
+  background: #eee;
+  border-top: 1px solid #e5e5e5;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#blackout {
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  z-index: 999999;
+  left: 0;
+  display: none;
+}
+ul {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+}
+li {
+  background-color: #c7b9b9;
+}
+li:hover {
+  background-color: #d9d9d9;
+}
+.new-game {
+  margin: 15px 75px;
+}

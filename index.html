@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="work.js"></script>
+  <script src="work-game.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Онлайн-игра "Жизнь"</title>
+</head>
+<body style="overflow: auto;">
+
+  <h1 align="center">Онлайн-игра "Жизнь"</h1>
+  <h2 align="center">Наименование игры:</h2>
+  <h3 align="center">Время:</h3>
+  <div id="game" align="center">
+    <table class="content-table" border="1">
+      <thead>
+        <tr><th>Игровое поле</th></tr>
+      </thead>
+      <tbody><tr>
+        <td valign="top">
+          <table id="game-grid">
+            <tbody>
+            </tbody>
+          </table>
+            <thead>
+              <tr><th>Меню</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center">
+                  <input id="gameSave" type="button" value="Сохранить">
+                  <input id="gameGo" type="button" value="Сделать ход">
+                </td>
+              </tr>
+            </tbody>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+</body>
+</html>
